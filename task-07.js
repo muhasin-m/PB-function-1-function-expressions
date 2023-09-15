@@ -10,7 +10,11 @@ a 0 in front it
 Rewrite it as a function expression.
 */
 
-const leadingZero = n => n <= 9 ? `0${n}` : `${n}`;
+// const leadingZero = n => n <= 9 ? `0${n}` : `${n}`;
+
+const leadingZero = function(n) {
+    return n <= 9 ? `0${n}` : `${n}`
+}
 
 console.log(leadingZero(8)); // 08
 console.log(leadingZero(0)); // 00

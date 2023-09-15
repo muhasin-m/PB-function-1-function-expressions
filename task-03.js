@@ -4,12 +4,20 @@ Task 03
 Rewrite the function below as a function expression.
 */
 
-function getNumbersUntil(number) {
+// function getNumbersUntil(number) {
+//     const result = [];
+//     for (let i = 0; i < number; i++) {
+//         result.push(i);
+//     }
+//     return XPathResult;
+// }
+
+const getNumbersUntil = number => {
     const result = [];
-    for (let i = 0; i < number; i++) {
-        result.push(i);
+    for(let i = 0; i <number; i++) {
+        result.push(i)
     }
-    return XPathResult;
+    return result
 }
 
 const list1 = getNumbersUntil(10);
